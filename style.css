@@ -106,7 +106,7 @@ header {
 }
 
 .m2 {
-    width: 340px;
+    width: 320px;
     position: absolute;
     right: 210px;
     top: 100px;
@@ -161,7 +161,7 @@ header {
     font-size: 50px;
     margin-bottom: 10px;
     color: #ffffff;
-
+    text-align: center;
 }
 
 .txt span {
@@ -171,6 +171,7 @@ header {
 
 .txt h5 {
     font-size: 30px;
+    text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #ffffff;
@@ -180,12 +181,12 @@ header {
     font-size: 20px;
     color: var(--tree);
     text-align: justify;
-    text-indent: 10px;
+    text-indent: 20px;
     
 }
 
 .txt {
-    padding-left: 300px;
+    padding-left: 200px;
     padding-right: 100px;
     margin-bottom: 100px;
     margin-top: 100px;
@@ -326,4 +327,196 @@ header {
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color:#171a1c;
+        margin: 0;
+    }
+
+    .blocks {
+        flex-wrap: wrap;
+    }
+
+    header .job{
+        display: block;
+        margin-right: 0px;
+    }
+
+    .job .j2 {
+        display: inline;
+    }
+
+    .links {
+        display:flex;
+        margin: 30px 0px;
+        flex-direction: column;
+    }
+
+    .links a{
+        padding: 60 0px;
+    }
+
+    .button {
+        visibility: hidden;
+    }
+
+    header {
+        display: inline;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    header {
+        padding-left: 30%
+    }
+
+    .bigtof {
+        display:block;
+    }
+
+    .section {
+        display: block;
+    }
+
+    .section img {
+        display: block;
+        width: 200px;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .section .txt {
+        display: block;
+        width: 70%;
+        font-size: 1px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .landing-page .text {
+        display: block;
+        order: 1;
+    }
+
+    .landing-page .m1 {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        /* margin: 0px;
+        padding: 0px; */
+        width: 200px;
+    }
+
+    .landing-page .m2 {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        /* margin: 0px;
+        padding: 0px; */
+        width: 70px;
+    }
+
+    .landing-page .bigtof {
+        display: block;
+        position: hidde;
+        visibility: hidden;
+        padding-left: 400px;
+        width: 10px;
+        bottom: 500px;
+        top: 700px;
+        margin-left: 100px;
+        order: 2;
+    }
+
+    .landing-page {
+        display: block;
+        position: relative;
+        font-size: 30px;
+        padding: 10% 0;
+        text-align: center;
+    }
+
+    .icons {
+        padding-top: 30%;
+    }
+
+    header h1 {
+        font-size: 70px;
+    }
+
+    .section img {
+        padding-top: 20%;
+    }
+
+    .section .img {
+        display: flex;
+        justify-content: center; /* Aligne horizontalement */
+        align-items: center;    
+    }
+
+    .section .txt {
+        width: 80%;
+        padding-left: 30px;
+        padding-bottom: 20%;
+    }
+
+    .blocks {
+        display: flex;
+        justify-content: center; 
+        align-items: center;    
+    }
+
+    .blocks .block:not(:first-child) {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .blocks em {
+        justify-content: center; 
+        align-items: center;    
+    }
+
+    .section2 {
+        padding-bottom: 0px;
+    }
+
+    .section3 h2{
+        margin: 0;
+        justify-content: center; 
+        align-items: center;    
+    }
+
+    .elements {
+        padding-left: 20%;
+        padding-bottom: 50%;
+        width: 100%;
+    }
+
+    .elements.im {
+        visibility: hidden;
+    }
+
+    .elements .images {
+        display: inline;
+        margin-left: 0%;
+    }
+
+    .elements img {
+        padding: 0;
+        margin: 0;
+    }
 }

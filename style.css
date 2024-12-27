@@ -180,8 +180,8 @@ header {
 .txt p {
     font-size: 20px;
     color: var(--tree);
-    text-align: justify;
-    text-indent: 20px;
+    text-align: center;
+    text-indent: 10px;
     
 }
 
@@ -329,6 +329,19 @@ header {
     font-size: 15px;
 }
 
+.text button a {
+    text-decoration: none;
+    color:azure;
+}
+
+.text button:hover {
+    background-color: var(--second);
+}
+
+.text button {
+    margin-top: 5%;
+}
+
 @media (max-width: 768px) {
     * {
         margin: 0;
@@ -400,8 +413,9 @@ header {
         display: block;
         width: 70%;
         font-size: 1px;
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
+
     }
 
     .landing-page .text {

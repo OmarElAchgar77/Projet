@@ -354,8 +354,11 @@ header {
 
     .links {
         display:flex;
+        align-items: center;
+        justify-content: center;
         margin: 30px 0px;
-        flex-direction: column;
+        flex-direction:row;
+        flex-wrap: wrap;
     }
 
     .links a{
@@ -459,13 +462,17 @@ header {
     }
 
     .section img {
-        padding-top: 20%;
+        padding-top: 10%;
     }
 
     .section .img {
         display: flex;
         justify-content: center; /* Aligne horizontalement */
         align-items: center;    
+    }
+
+    .section p {
+        padding-top: 20%;
     }
 
     .section .txt {
@@ -475,6 +482,7 @@ header {
     }
 
     .blocks {
+        margin: 0;
         display: flex;
         justify-content: center; 
         align-items: center;    
@@ -483,6 +491,12 @@ header {
     .blocks .block:not(:first-child) {
         padding-top: 0;
         margin-top: 0;
+    }
+
+    .block {
+        width: 900px;
+        margin: 0;
+        padding: 0;
     }
 
     .blocks em {

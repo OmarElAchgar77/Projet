@@ -304,7 +304,7 @@ header {
 }
 
 .section5 {
-    background-color: var(--second);
+    background-color: var(--four);
     margin-top: 0px;
     color: white;
     padding-top: 0px;
@@ -359,7 +359,7 @@ header {
 }
 
 .section6 h2 span {
-    color: var(--second);
+    color: var(--premerycolor);
 } 
 
 form {

@@ -346,7 +346,7 @@ header {
 
 .section6 {
     display: inline-block;
-    background-color: #FF274b;
+    background-color: var(--second);
     width: 100%;
     height: fit-content;
 }

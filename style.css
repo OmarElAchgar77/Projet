@@ -89,11 +89,6 @@ header {
 }
 
 .icons img:hover {
-    /* border: solid rgb(239, 79, 79);
-    border-radius: 1000px;
-    background-color: rgb(239, 79, 79); */
-    /* width:50px;
-    transition: 0.4s; */
     transform: scale(1.4);
     transition: 0.4s;
 }
@@ -222,6 +217,12 @@ header {
 
 .block {
     border-radius: 15px;
+    cursor: pointer;
+}
+
+.block:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
 }
 
 .block em {
@@ -273,36 +274,46 @@ header {
     color: var(--premerycolor);
 }
 
-.images img {
-    width: 80px;
-    background-color: white;
-    border-radius: 50%;
-    margin-right: 30px;
+.elements {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding-bottom: 80px;
 }
 
-.images {
-    margin-right: 50%;
-    margin-left: 10%;
-    position: relative;
-    bottom: 290px;
-    margin-top: 50px;
-    
+.elements .images img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #e6ffe6;
+    margin: 10px;
+    cursor: pointer;
 }
 
 .elements .im {
-    width: 400px;
     position: relative;
-    left: 760px;
-    bottom: 620px;
-    padding-right: 0px;
+    left: 0px;
+    top: -20px;
+    width: 400px;
+    height: 400px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+
 }
 
-.elements {
-    height: 100px;
-    overflow: hidden;
-    padding-top: 300px;
+
+.images {
+    margin-right: 100px;
+    margin-top: 50px;
 }
 
+.images img:hover {
+    transform: scale(1.4);
+    transition: 0.4s;
+}
+
+/* -------------------- */
 .section5 {
     background-color: var(--four);
     margin-top: 0px;
@@ -530,8 +541,6 @@ form button {
         bottom: 0;
         right: 0;
         left: 0;
-        /* margin: 0px;
-        padding: 0px; */
         width: 70px;
     }
 
@@ -575,6 +584,8 @@ form button {
 
     .section p {
         padding-top: 20%;
+        padding-left: 80px;
+        font-size: 15px;
     }
 
     .section .txt {
@@ -588,6 +599,11 @@ form button {
         display: flex;
         justify-content: center; 
         align-items: center;    
+    }
+
+    .block:hover {
+        transform: scale(1.05);
+        transition: 0.4s;
     }
 
     .blocks .block:not(:first-child) {
@@ -611,34 +627,38 @@ form button {
     }
 
     .section3 h2{
-        margin: 0;
-        justify-content: center; 
-        align-items: center;    
+        font-size: 50px;
+        padding: 20px;
+        margin: 0px;
     }
 
     .elements {
-        padding-left: 20%;
-        padding-bottom: 50%;
+        margin-left: 10px;
     }
 
-    .elements.im {
-        visibility: hidden;
+    .im {
+        display: none;
     }
 
-    .elements .images {
-        display: inline;
-        margin-left: 0%;
+    .elements .images img {
+        width: 90px;
+        height: 90px;
     }
 
-    .elements img {
-        padding: 0;
-        margin: 0;
+    .images {
+        margin: 0px;
     }
+
+
 
     .section6 h2 {
         color:#ffffff;
         font-size: 3.3rem;
         margin-left: 6%;
         margin-bottom: 2rem;
+    }
+
+    .section p {
+        padding-left: 0px;
     }
 }

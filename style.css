@@ -72,11 +72,6 @@ header {
     color: white;
     margin-top: 0px;
     padding: 100px 100px;
-    
-    /* padding-bottom: 170px; */
-    /* display: flex;
-    align-items:center ;
-    justify-content: space-between; */
 }
 
 .icons {
@@ -378,7 +373,7 @@ form {
     flex-direction: column;
     margin: 0% 5% 0% 5%;
     margin-bottom: 5%;
-    background-color:#ffffff;
+    background-color:#b9b9b9;
     border-radius: 15px;
     padding: 5%;
 }
@@ -402,10 +397,9 @@ input:valid,
 textarea:valid,
 select:valid {
     border-color: green;
-    background-color: #e6ffe6; /* Fond vert pâle */
+    background-color: #e6ffe6;
 }
 
-/* Style pour le focus */
 input:focus,
 textarea:focus,
 select:focus {
@@ -529,8 +523,6 @@ form button {
         bottom: 0;
         right: 0;
         left: 0;
-        /* margin: 0px;
-        padding: 0px; */
         width: 200px;
     }
 
@@ -578,7 +570,7 @@ form button {
 
     .section .img {
         display: flex;
-        justify-content: center; /* Aligne horizontalement */
+        justify-content: center; 
         align-items: center;    
     }
 
@@ -648,8 +640,6 @@ form button {
     .images {
         margin: 0px;
     }
-
-
 
     .section6 h2 {
         color:#ffffff;

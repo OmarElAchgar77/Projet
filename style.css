@@ -429,6 +429,7 @@ form button {
     width: 100px;
     padding: 5px;
     margin: 20px 0 0 0;
+    border-radius: 15px;
 }
 
 .section2 h3 {

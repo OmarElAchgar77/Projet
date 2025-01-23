@@ -213,6 +213,7 @@ header {
 .block {
     border-radius: 15px;
     cursor: pointer;
+    height: 45vh;
 }
 
 .block:hover {
@@ -599,6 +600,7 @@ form button {
         width: 900px;
         margin: 0;
         padding: 0;
+        height: 30vh;
     }
 
     .blocks em {
